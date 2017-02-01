@@ -20,7 +20,8 @@ int main(int argc, char *argv[]) {
 	}
 	printf("\r\n\r\n");
 	
-	/**/
+	/*Aqui es donde se efectua el ciclo para hacer la multiplicacion de cada 
+	tabla*/
 	
 	for(multiplo = 1; multiplo <= numero1; multiplo++)
 	{
