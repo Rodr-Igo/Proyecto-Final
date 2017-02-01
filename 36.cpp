@@ -1,5 +1,5 @@
 /*
-Autor:Equipo 4 José Antonio Barrera Morales 29/Enero/17
+Autor:Equipo 4 Josï¿½ Antonio Barrera Morales 29/Enero/17
 Entradas:n matriz a de nxn
 Salidas:elementos de la diagonal inferior de la matriz
 Procedimiento general: usa doble ciclo for para la impresion y entrada de datos
@@ -9,9 +9,10 @@ para la impresion usa el if para seleccionar si seguira imprimiendo en la misma 
 #include <stdio.h>
 int main(int argc, char *argv[]) {
 	/*Entradas*/
-	int n,i,j,a[50][50];
-	printf("inserta el tamaño de la matriz\n");
+	int n,i,j;
+	printf("inserta el tamaï¿½o de la matriz\n");
 	scanf("%d",&n);
+	int a[n][n];
 	/*Las variables i,j se usan para moverse entre la matriz*/
 	for(i=0;i<n;i++){
 		for(j=0;j<n;j++){
@@ -24,7 +25,7 @@ int main(int argc, char *argv[]) {
 	y cuando son iguales la salida debe saltar linea*/
 	for(i=0;i<n;i++){
 		for(j=0;j<n;j++){
-			
+
 			if(i>=j){
 				if(i<=j){
 					printf("     %d\n",a[i][j]);
@@ -33,7 +34,7 @@ int main(int argc, char *argv[]) {
 					printf("     %d",a[i][j]);
 				}
 			}
-			
+
 		}
 	}
 	return 0;
