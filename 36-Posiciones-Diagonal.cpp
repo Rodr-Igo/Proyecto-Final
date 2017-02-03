@@ -1,5 +1,5 @@
 /*
-Autor:Equipo 4 Jos� Antonio Barrera Morales 29/Enero/17
+Autor:Equipo 4 Jose Antonio Barrera Morales 29/Enero/17
 Entradas:n matriz a de nxn
 Salidas:elementos de la diagonal inferior de la matriz
 Procedimiento general: usa doble ciclo for para la impresion y entrada de datos
