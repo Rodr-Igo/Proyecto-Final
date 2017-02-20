@@ -29,8 +29,8 @@ int main(int argc, char *argv[]) {
 		printf("inserta un numero (999 para dejar de insertar)\n");
 		scanf("%f",&numero);
 	}while(numero!=999);
-	
-	
+
+
 	/*Salidas*/
 	printf("el numero mayor= %f\n el numero menor= %f",mayor,menor);
 	return 0;

@@ -10,7 +10,7 @@ para la impresion usa el if para seleccionar si seguira imprimiendo en la misma 
 int main(int argc, char *argv[]) {
 	/*Entradas*/
 	int n,i,j;
-	printf("inserta el tama�o de la matriz\n");
+	printf("inserta el tamaño de la matriz\n");
 	scanf("%d",&n);
 	int a[n][n];
 	/*Las variables i,j se usan para moverse entre la matriz*/

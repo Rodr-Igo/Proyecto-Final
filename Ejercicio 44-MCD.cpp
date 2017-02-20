@@ -1,5 +1,5 @@
 /*
-Autor:Moisés Vinajera 29/Enero/17
+Autor:Moisï¿½s Vinajera 29/Enero/17
 Entradas: valor1, valor2 (int)
 Salidas: MCD (int)
 Procedimiento general:
@@ -8,15 +8,15 @@ Procedimiento general:
 
 #include <stdio.h>
 
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[])
 {
-	/* Entradas 
+	/* Entradas
 	valor1= primer valor de entrada (int)
 	valor1= segundo valor de entrada (int)
 
 	*/
 	int valor1, valor2, mcd=0, divisor=0;
-	
+
 	/* Procedimiento */
 	printf("Introduzca dos valores enteros diferentes a cero \n");
 	scanf("%d %d", &valor1, &valor2);
@@ -25,13 +25,13 @@ int main(int argc, char *argv[])
 		{
 			while (valor1!=0 && valor2 != 0)
 			{
-				divisor = valor1%valor2; 
+				divisor = valor1%valor2;
 				valor1 = valor2;
 				valor2 = divisor;
 				mcd = valor1;
 			}
 		}
-		else 
+		else
 		{
 			while (valor1!=0 && valor2 != 0)
 			{
@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 			}
 		}
 		/* Salida*/
-		printf(" El mcd de los numeros es %d ", mcd);	
+		printf(" El mcd de los numeros es %d ", mcd);
 	}
 	else
 	{

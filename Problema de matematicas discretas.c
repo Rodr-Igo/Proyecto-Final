@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(int argc, char *argv[]) {
-	int Monto_prestamo,Residuo_cuenta,Porcentaje_interes,Abono, Meses, Contador = 0, Monto_por_mes = 0,Sumador;
+	int Monto_de_prestamo,Residuo_de_cuenta,Porcentaje_interes,Abono, Meses, Contador = 0, Monto_por_mes = 0,Sumador;
 
   printf("Ingrese el dinero que tienes en la cuenta:\n");
-	scanf("%d\n", Monto_prestamo);
+	scanf("%d\n", Monto_de_prestamo);
 
 	printf("Ingrese el interes que se le cobrara anualmente\n");
 	scanf("%d\n",Porcentaje_interes);
@@ -22,9 +22,9 @@ int main(int argc, char *argv[]) {
 
 	}
 
-	Residuo_cuenta = ((Monto_prestamo*(1 + (Porcentaje_interes/12))) ^ Meses) - (Abono * Monto_por_mes);
+	Residuo_de_cuenta = ((Monto_de_prestamo*(1 + (Porcentaje_interes/12))) ^ Meses) - (Abono * Monto_por_mes);
 
-printf("Este es el residuo de la cuenta: %d y fueron en : %d\n",Residuo_cuenta, Meses);
+printf("Este es el residuo de la cuenta: %d y fueron en : %d\n",Residuo_de_cuenta, Meses);
 
 	return 0;
 }
