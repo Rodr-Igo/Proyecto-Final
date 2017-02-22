@@ -33,6 +33,8 @@ def function_desplegar(base, cifrasValor):
                 contador = contador + 1
 
         print(asteriscos + aux2)
+    else:
+        print(aux2)
 #Entradas
 #valor : valor de entrada requerido.
 #longitud : cantidad de cifras que se requieren en la impreson.
@@ -44,3 +46,4 @@ longitud = input()
 #Procedimiento
 #Llamar a la funcion lecturaFuncion
 function_desplegar(valor, longitud)
+x = input()
