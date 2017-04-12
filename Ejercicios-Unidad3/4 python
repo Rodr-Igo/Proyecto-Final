@@ -1,0 +1,16 @@
+#Autor:José Antonio Barrera Morales 21/Febrero/17
+#Entradas: a(valor entero)
+#Salidas: Numero Decimal
+#Procedimiento general: toma la entrada a del usuario, al dividirlo entre 2 toma el residuoy lo multiplica por 2 a la potencia del contador
+#esto para ir aumentando en base 2. reduce el numero dividiendolo entre 10 y aumenta el contador.Esto se repite muentras el numero sea igual o mayor a uno.
+
+def binarioADecimal(x):
+    contador = 0
+    resultado = 0
+    while(x >= 1):
+        resultado = resultado+((x%10)*(pow(2,contador)))
+        x=int(x/10)
+        contador = contador+1
+    return resultado
+a = int(input())
+print(binarioADecimal(a))
