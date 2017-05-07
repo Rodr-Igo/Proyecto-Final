@@ -1,0 +1,5 @@
+C:\Users\IGO134\Documents\GitHub\Proyecto-Final\Proyecto-Final\Ejercicios-Unidad3\Punto-flotante.c: In function 'main':
+C:\Users\IGO134\Documents\GitHub\Proyecto-Final\Proyecto-Final\Ejercicios-Unidad3\Punto-flotante.c:9:19: error: '_numeroDecimal' undeclared (first use in this function)
+ contadorDecimales(_numeroDecimal);
+                   ^
+C:\Users\IGO134\Documents\GitHub\Proyecto-Final\Proyecto-Final\Ejercicios-Unidad3\Punto-flotante.c:9:19: note: each undeclared identifier is reported only once for each function it appears in
